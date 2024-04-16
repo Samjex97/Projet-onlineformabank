@@ -1,0 +1,112 @@
+
+
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: #f1f1f15e;
+}
+
+.container {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    background-color: #f0f0f0; /* Colore di sfondo della navbar */
+    width: 121.5%;
+    display: block;
+}
+
+.navigatore {
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    padding: 5px; /* Aggiungi spazio interno alla navbar */
+    color: white;
+    margin-right: 50px; /* Aggiungi margine a destra */
+    border-bottom: 1px solid #ccc;
+    justify-content: space-between;
+}
+
+.Profile {
+    background-color: rgba(121, 120, 120, 0.733);
+    padding: 20px 30px;
+    margin: 10px;
+    border-radius: 60%;
+    font-size: 15px;
+    transition: 1.5s;
+}
+.Profile:hover {
+  border: 2px solid rgba(73, 73, 255, 0.733)  ;
+  transform: scale(1.1);
+
+}
+.logo {
+    display: flex;
+    position: absolute;
+    left: 850px;
+    top: -25px;
+    height: 150px;
+    margin-left: auto; /* Posiziona il logo all'estrema destra */
+    margin-right: 50px;
+}
+
+.Messagerie {
+    /* Aggiungi spazio intorno al contenuto "Messagerie" */
+    padding: 10px  20px;
+    color: black;
+    font-size: 30px;
+ 
+}
+
+
+.pagina {
+    height: 798px;
+    width: 121.5%;
+  
+    display: flex;
+    justify-content: space-between;
+}
+
+.SezioneLogin {
+   
+    width: 30%;
+}
+.SezioneBenvenuto {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    
+    width: 70%;
+    background-image: url(/images/Ziopaperone.jpg);
+    background-position: center;
+    background-size: cover;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+   
+}
+.importanza {
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: auto;
+
+    border: 1px solid black;
+    background-color: #fdfdfdc7;
+    color: black;
+    width: 50%;
+    padding: 20px;
+}
+
+.importanza h3 {
+    font-size: 20px;
+    color: red;
+}
+
+.importanza p {
+    font-size: 15px;
+}
+.red {
+    color: red;
+}
